@@ -1,0 +1,15 @@
+project-root/
+│
+├── app/                   # Main application code
+│   ├── __init__.py
+│   ├── main.py            # Your main Streamlit script
+│   ├── utils.py           # Utility functions (e.g., clean_field, correct_address)
+│   └── agents.py          # Async agent code and related logic
+│
+├── data/                  # Data files (e.g., HS code CSVs)
+│   └── hs_codes.csv
+│
+├── requirements.txt       # List of Python dependencies
+├── .env.example           # Example environment variables file
+├── README.md              # Project overview and instructions
+└── .gitignore             # Files/folders to ignore in Git
